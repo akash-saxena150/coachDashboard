@@ -1,0 +1,44 @@
+body{
+  font-size: 14px;
+}
+a{text-decoration: none}
+.primary{
+  color: #31a952
+}
+h1{
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px
+}
+small{
+  font-size: .8rem
+}
+.rounded{
+  border-radius: '50%'
+}
+input[type="text"].rounded, input[type="password"].rounded{
+  padding: 8px 10px;
+  font-size: 1rem;
+  border: solid #dbdbdb 1px;
+  border-radius: 25px;
+  outline: none;
+  margin-bottom: 10px;
+  color: #494949;
+}
+input[type="text"].rounded:focus, input[type="password"].rounded:focus{
+  -webkit-box-shadow: 4px 4px 10px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 10px -10px rgba(0,0,0,0.75);
+box-shadow: 4px 4px 10px -10px rgba(0,0,0,0.75);
+}
+button{
+  padding: 8px 20px;
+  font-size: 1rem;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+}
+button.primary{
+  background-color: #31b455;
+  color: #fff;
+}
